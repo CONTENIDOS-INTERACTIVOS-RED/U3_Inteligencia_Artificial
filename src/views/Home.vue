@@ -22,9 +22,9 @@
               .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
                 p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
                 h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-                p.descripcion.mb-4 En la actualidad, el aprendizaje automático se ha consolidado como una de las herramientas más poderosas en el campo de la inteligencia artificial. Esta unidad ofrece una introducción a los principios fundamentales que permiten a los sistemas aprender a partir de datos y tomar decisiones sin ser programados de forma explícita. Se estudiarán los tipos de aprendizaje, sus algoritmos más utilizados, y su aplicación práctica en problemas cotidianos.
+                p.descripcion.mb-4 La inteligencia artificial ha dejado de ser una promesa del futuro para convertirse en un motor de cambio en múltiples esferas de la vida cotidiana y profesional. En esta tercera unidad, se exploran los efectos sociales y éticos que genera la integración de la IA en campos como la salud, la justicia, la educación y el trabajo. A través del análisis de casos, debates y reflexiones críticas, se buscará comprender los beneficios y riesgos que estas tecnologías implican, así como los principios que deben regir su desarrollo y aplicación responsable.
   
-                p #[b ¡Prepárese para aplicar el aprendizaje automático en soluciones reales con impacto y precisión!]
+                p #[b ¡Prepárese para asumir el desafío ético de construir una inteligencia artificial justa, transparente y centrada en las personas!]
   
                 .button-container.mt-auto
                   router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

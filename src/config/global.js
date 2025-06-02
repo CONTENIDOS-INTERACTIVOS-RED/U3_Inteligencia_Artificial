@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    tituloUnidad: 'Impacto de la IA en la sociedad y la ética',
   },
   menuPrincipal: {
     menu: [
